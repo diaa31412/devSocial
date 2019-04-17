@@ -1,3 +1,4 @@
 module.exports = {
-  MongoUrl: "mongodb://localhost:27017/devSocial"
+  MongoUrl: "mongodb://localhost:27017/devSocial",
+  secretOrKey: "secret"
 };
