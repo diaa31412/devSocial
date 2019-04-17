@@ -53,7 +53,7 @@ const profileSchema = new Schema({
         required: true
       },
       to: {
-        type: StrDateing
+        type: Date
       },
       current: {
         type: Boolean,
@@ -83,7 +83,7 @@ const profileSchema = new Schema({
         required: true
       },
       to: {
-        type: StrDateing
+        type: Date
       },
       current: {
         type: Boolean,
@@ -112,7 +112,7 @@ const profileSchema = new Schema({
     }
   },
   date: {
-    type: DataCue,
+    type: Date,
     default: Date.now
   }
 });
